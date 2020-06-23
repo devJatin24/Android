@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_3"
+    android:layout_height="match_parent"
+    tools:context=".CategoriesActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:id="@+id/name"
+        android:textColor="@color/black"
+        android:layout_marginTop="27dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/l1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/name">
+
+        <ImageView
+            android:id="@+id/Earring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/e" />
+
+        <ImageView
+            android:id="@+id/Line"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/l"
+            />
+        <ImageView
+            android:id="@+id/pendantset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/p"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/Ring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/r"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

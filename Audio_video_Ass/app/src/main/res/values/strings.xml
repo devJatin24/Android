@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Audio_video_Ass</string>
+
+    <string-array name="songs">
+        <item>Tere bina jeena saza</item>
+        <item>Humnava mere</item>
+        <item>Mera pyar tera pyar</item>
+        <item>Pal</item>
+    </string-array>
+
+    <string-array name="videos">
+        <item>Attention</item>
+        <item>We dont talk anymore</item>
+        <item>jeena mera dil</item>
+        <item>Dheere dheere sa tera hua</item>
+    </string-array>
+
+
+</resources>

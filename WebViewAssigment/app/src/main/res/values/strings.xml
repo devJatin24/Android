@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WebViewAssigment</string>
+
+    <string-array name="values">
+        <item>Kabir Das</item>
+        <item>Tulsi Das</item>
+        <item>Rahim</item>
+        <item>Mahadevi Verma</item>
+
+    </string-array>
+</resources>

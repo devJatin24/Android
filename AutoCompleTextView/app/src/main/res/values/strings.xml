@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AutoCompleTextView</string>
+
+    <string-array name="data">
+        <item>Agra</item>
+        <item>Aligarh</item>
+        <item>Agartala</item>
+        <item>Basti</item>
+        <item>Banaras</item>
+        <item>Banglore</item>
+
+    </string-array>
+</resources>
